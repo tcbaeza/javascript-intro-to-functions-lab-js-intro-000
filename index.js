@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function shout(Hello) {
   return 'Hello'.toUpperCase()
 }
@@ -18,4 +19,16 @@ function sayHiToGrandma(string){
   if (string === string.toLowerCase()) return "I can't hear you!";
   else if (string === "I love you, Grandma.") return "I love you, too.";
   else if (string === string.toUpperCase()) return "YES INDEED!";
+=======
+function shout(hello) {
+  return('Hello'.toUpperCase())
+}
+
+function whisper(hello) {
+  return('Hello'.toLowerCase())
+}
+
+function logshout('hello') {
+  console.log('Hello'.toUpperCase())
+>>>>>>> 90480c82f0e43e0b347ab1fb734194e6c2270407
 }
